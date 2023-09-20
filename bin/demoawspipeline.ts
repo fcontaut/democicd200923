@@ -5,5 +5,5 @@ import { DemoawspipelineStack } from '../lib/demoawspipeline-stack';
 
 const app = new cdk.App();
 new DemoawspipelineStack(app, 'DemoawspipelineStack', {
-  env: { account: '609589327988', region : 'us-east-1'}
+  env: { account: '609589327988', region : 'us-east-2'}
 });
